@@ -5,9 +5,10 @@ import Layout from '../components/layout';
 import Footer from '../components/Footer';
 import pic1 from '../images/pic01.jpg';
 import pic2 from '../images/pic02.jpg';
-import pic3 from '../images/pic03.jpg';
+import pic4 from '../images/pic04.jpg';
 import Sidebar from '../components/Sidebar';
 import Scroll from '../components/Scroll';
+import Contact from '../components/Contact'
 
 const IndexPage = () => (
   <Layout>
@@ -16,13 +17,11 @@ const IndexPage = () => (
     <div id="wrapper">
       <section id="intro" className="wrapper style1 fullscreen fade-up">
         <div className="inner">
-          <h1>Hyperspace</h1>
+          <h1>Sacred Fire Africa</h1>
           <p>
-            Just another fine responsive site template designed by{' '}
-            <a href="http://html5up.net">HTML5 UP</a>
+            Pilgrimage Ceremony With The Wixarrika Nation
             <br />
-            and released for free under the{' '}
-            <a href="http://html5up.net/license">Creative Commons</a>.
+            for Healing the Land
           </p>
           <ul className="actions">
             <li>
@@ -43,15 +42,15 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <div className="inner">
-              <h2>Sed ipsum dolor</h2>
+              <h2>The Marakame of Wixárika</h2>
               <p>
-                Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-                turpis mauris, eu ultricies erat malesuada quis. Aliquam
-                dapibus.
+                The Wixáritari are an indigenous people of Mexico living in the
+                Sierra Madre Occidental range in the states of Nayarit, Jalisco, Zacatecas and Durango.
+                In the Wixarika society, Marakame are the Medicine Women and Men, and the Leaders as well.
               </p>
               <ul className="actions">
                 <li>
-                  <Link className="button" to="/generic">
+                  <Link className="button" to="/marakame">
                     Learn more
                   </Link>
                 </li>
@@ -61,19 +60,17 @@ const IndexPage = () => (
         </section>
         <section>
           <a href="/#" className="image">
-            <img src={pic2} alt="" data-position="top center" />
+            <img src={pic4} alt="" data-position="top center" />
           </a>
           <div className="content">
             <div className="inner">
-              <h2>Feugiat consequat</h2>
+              <h2>MARAKAME​ URU MUUILE DON EUGENIO LOPEZ CARILLOO</h2>
               <p>
-                Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-                turpis mauris, eu ultricies erat malesuada quis. Aliquam
-                dapibus.
+                Marakame ​Uru Muuile (Don Eugenio Lopez Carilloo) lives in the north of the State of Jalisco in a community called 'La Laguna' between San Andres (Tateikie) and Santa Catarina (Tuapurie). Descendent of an ancestral lineage of Marakate (Medicine Men and Women, Don Eugenio has dedicated his life to preserve his cultural traditions.
               </p>
               <ul className="actions">
                 <li>
-                  <Link className="button" to="/generic">
+                  <Link className="button" to="/facilitator">
                     Learn more
                   </Link>
                 </li>
@@ -83,15 +80,13 @@ const IndexPage = () => (
         </section>
         <section>
           <a href="/#" className="image">
-            <img src={pic3} alt="" data-position="25% 25%" />
+            <img src={pic2} alt="" data-position="25% 25%" />
           </a>
           <div className="content">
             <div className="inner">
-              <h2>Ultricies aliquam</h2>
+              <h2>Dates for South Africa Events 2020</h2>
               <p>
-                Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-                turpis mauris, eu ultricies erat malesuada quis. Aliquam
-                dapibus.
+                These ceremonies will take place in 4 provinces within South Africa. Click here to find out the dates and places
               </p>
               <ul className="actions">
                 <li>
@@ -105,7 +100,7 @@ const IndexPage = () => (
         </section>
       </section>
 
-      <section id="two" className="wrapper style3 fade-up">
+  { /**   <section id="two" className="wrapper style3 fade-up">
         <div className="inner">
           <h2>What we do</h2>
           <p>
@@ -172,98 +167,9 @@ const IndexPage = () => (
             </li>
           </ul>
         </div>
-      </section>
+      </section> */}
 
-      <section id="three" className="wrapper style1 fade-up">
-        <div className="inner">
-          <h2>Get in touch</h2>
-          <p>
-            Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-            turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus,
-            lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
-            imperdiet est velit quis lorem.
-          </p>
-          <div className="split style1">
-            <section>
-              <form method="post" action="#">
-                <div className="fields">
-                  <div className="field half">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" />
-                  </div>
-                  <div className="field half">
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email" />
-                  </div>
-                  <div className="field">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" rows="5" />
-                  </div>
-                </div>
-                <ul className="actions">
-                  <li>
-                    <a href="/#" className="button submit">
-                      Send Message
-                    </a>
-                  </li>
-                </ul>
-              </form>
-            </section>
-            <section>
-              <ul className="contact">
-                <li>
-                  <h3>Address</h3>
-                  <span>
-                    12345 Somewhere Road #654
-                    <br />
-                    Nashville, TN 00000-0000
-                    <br />
-                    USA
-                  </span>
-                </li>
-                <li>
-                  <h3>Email</h3>
-                  <a href="/#">user@untitled.tld</a>
-                </li>
-                <li>
-                  <h3>Phone</h3>
-                  <span>(000) 000-0000</span>
-                </li>
-                <li>
-                  <h3>Social</h3>
-                  <ul className="icons">
-                    <li>
-                      <a href="/#" className="fa-twitter">
-                        <span className="label">Twitter</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/#" className="fa-facebook">
-                        <span className="label">Facebook</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/#" className="fa-github">
-                        <span className="label">GitHub</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/#" className="fa-instagram">
-                        <span className="label">Instagram</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/#" className="fa-linkedin">
-                        <span className="label">LinkedIn</span>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </section>
-          </div>
-        </div>
-      </section>
+      <Contact />
     </div>
 
     <Footer />
