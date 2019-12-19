@@ -1,11 +1,18 @@
 import React from 'react';
 import { Link } from 'gatsby';
-//import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com';
 
 class Contact extends React.Component {
 
 constructor(props) {
   super(props)
+
+  this.state = {
+          submitDisabled: false,
+          message: ''
+      };
+
+      this.handleSubmit = this.handleSubmit.bind(this);
 }
 
 handleSubmit(event) {
@@ -31,11 +38,16 @@ handleSubmit(event) {
             var service_id = "default_service";
             var template_id = "template_m9OkeQLI";
             var user_id = "user_wLPGPl2w2ETFdTUDNZQP2";
-            //emailjs.send(service_id, template_id, template_params, user_id);
-    }
+            emailjs.send(service_id, template_id, template_params, user_id);
+            this.setState({ message: 'Thank you! Your email is sent!' });
+            setTimeout(() => {
+              this.setState({ message: '' });
+            }, 3000);
+            }
   }
 
   render() {
+    const { message } = this.state;
     return (
       <section id="three" className="wrapper style1 fade-up">
         <div className="inner">
@@ -94,6 +106,9 @@ handleSubmit(event) {
         > Send Message</button>
                   </li>
                 </ul>
+                <span className={`${message ? 'visible success' : ''} message`}>
+          {message}
+        </span>
               </form>
             </section>
             <section>
