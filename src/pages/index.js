@@ -78,13 +78,13 @@ const IndexPage = () => (
             </div>
           </div>
         </section>
-        <section>
+        {/*<section>
           <a href="/#" className="image">
             <img src={pic2} alt="" data-position="25% 25%" />
           </a>
           <div className="content">
             <div className="inner">
-              <h2>Dates for South Africa Events 2020</h2>
+              <h2>Dates for South Africa Events 2021</h2>
               <p>
                 These ceremonies will take place in 4 provinces within South Africa. Click here to find out the dates and places
               </p>
@@ -97,7 +97,7 @@ const IndexPage = () => (
               </ul>
             </div>
           </div>
-        </section>
+        </section>**/}
       </section>
 
   { /**   <section id="two" className="wrapper style3 fade-up">

@@ -53,7 +53,7 @@ handleSubmit(event) {
         <div className="inner">
           <h2>Get in touch</h2>
           <p>
-            If you feel called to stand in your power and support the prayers for our great Land, then contact Gabriel here for your booking. We will send you more details and confirm your spot. Just let us know which ceremony you are interested in for January 2020.
+            If you feel called to stand in your power and support the prayers for our great Land, then contact Gabriel here to be in the energy circle of the Huichol people and their medicine.
           </p>
           <div className="split style1">
             <section>
@@ -115,7 +115,7 @@ handleSubmit(event) {
               <ul className="contact">
                 <li>
                   <h3>Email</h3>
-                  <a href="/#">butterflycacao@gmail.com</a>
+                  <a href="/#">remembrancepod@gmail.com</a>
                 </li>
                 <li>
                   <h3>Phone</h3>
